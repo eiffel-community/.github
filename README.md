@@ -1,2 +1,4 @@
 # .github
-Eiffel Community repository for default files.
+*Community health files for the @eiffel-community organization*
+
+For more information, please see the article on [creating a default community health file for your organization](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization).
