@@ -81,3 +81,6 @@ When John Doe makes a subsequent contribution the following year, the notice wil
 
 > Copyright 2018-2019 Ericsson AB and others.  
 > For a full list of individual contributors, please see the commit history.
+
+## How to Create a New Eiffel Repository
+In order to promote similar process and handling across the community, new Eiffel repositories are created by coping the contents of the eiffel-repository-template (https://github.com/eiffel-community/eiffel-repository-template), then following the guidelines given in that repository.
