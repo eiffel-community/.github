@@ -56,10 +56,15 @@ Pull requests can be merged by members of the [the repository maintainers' team]
 1. Do not feel any pressure to merge Pull Requests. Unless you feel confident about what you are doing, don't press that big green button. Instead, ask a more senior maintainer to make the decision.
 1. When squashing and merging, ensure that the description reflects the change. Detailing every individual commit in the Pull Request is unnecessary, as they are squashed anyway. Instead, describe the change as a single thing. That description should always include an Issue reference, and should focus on WHY the change was made, to provide the reader with context. See [this excellent guide](https://chris.beams.io/posts/git-commit) on writing good commit messages.
 
+### Closing pull requests
+If the author of an pull request has not made any changes or status updates in one months time, any member of [the repository maintainers' team](https://github.com/eiffel-community/community/blob/master/CONTACT.md) should notify the author that they will close the pull request(see below for an example). The member should wait a week after putting the notice before closing the pull request.
+
+  > No one has made an update to this pull request for one month. Please add a status update or we will close this pull request.
+
 ### License Management
 To be accepted into the repository, contributions must be licensed under the Apache License 2.0. Consequently, a license notice shall be included in suitable comment syntax where applicable. This license notice shall state the copyright holder(s) and point to the commit history for a full list of individual contributors, on the following format:
 
-> Copyright <Year(s)> <Copyright holder of original contribution [and others].>  
+> Copyright <Year(s)> <Copyright holder of original contribution \[and others].>  
 > For a full list of individual contributors, please see the commit history.
 
 The copyright holder is either the individual contributor if they act on their own behalf, or any organization on whose behalf they contribute. When multiple copyright holders have contributed to the same file, the copyright notice shall be appended "and others". The copyright year(s) shall reflect the year(s) of contribution(s) and be updated accordingly when new contributions are made to the file. To exemplify, the copyright notice of an original contribution made by Jane Doe acting on behalf of Ericsson AB may read:
