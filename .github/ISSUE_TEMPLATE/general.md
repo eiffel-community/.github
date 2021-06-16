@@ -1,3 +1,7 @@
+---
+name: General issue
+about: Bug reports, feature requests, etc.
+---
 <!--
 Filling out the template is required. Any issue that does not include enough information may be closed at the maintainers' discretion.
 -->

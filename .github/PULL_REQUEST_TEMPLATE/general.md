@@ -1,3 +1,7 @@
+---
+name: General pull request
+about: Bug reports, feature requests, etc.
+---
 <!--
 Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion.
 Any pull request must pass the automated Travis tests and, if applicable, code style checks. In addition the pull request must  contain tests that cover the code.
