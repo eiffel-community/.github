@@ -32,6 +32,8 @@ Contributions can be made by anyone using the standard [GitHub Fork and Pull mod
 ### Reviewing and Merging Pull Requests
 We use the Squash and Merge model, which means that all commits in a Pull Request get squashed into a single commit in the target branch. In other words, the revision history will look like a string of single commits corresponding one-to-one with Issues.
 
+To facilitate reviews, address feedback by pushing additional commits to the pull request branch rather than using forced pushes to replace the original commit(s). Because the branch will get squashed there is no point in keeping the string of commits on the pull request branch tidy; it's only the squashed result that matters.
+
 Pull requests can be merged by members of the [the repository maintainers' team](https://github.com/eiffel-community/community/blob/master/CONTACT.md). There is a certain protocol to adhere to, however, as well as expectations on membership.
 1. All maintainers are expected to make the effort to participate in the review of Pull Requests. Every maintainer may not review everything in detail, but everyone can make the effort to chime in on some. Remember that expedient high quality reviews are crucial to the long term survival of any open source project.
 1. All community members, maintainers or not, are strongly encouraged to participate in reviews even if they do not feel entirely qualified to assess the pull request. Looking at changes and participating in review discussions is one of the best ways to learn, and presents an excellent opportunity to ask questions. And remember, participating in a review is not the same as having to make the final decision.
