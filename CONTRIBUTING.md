@@ -16,7 +16,7 @@ When posting a new issue, try to be as precise as possible and phrase your argum
 Also, keep in mind that just as anyone is welcome to propose a change, anyone is welcome to disagree with and criticize that proposal.
 
 ### Closing Issues
-An Issue can be closed by any member of [the repository maintainers' team](https://github.com/eiffel-community/community/blob/master/CONTACT.md). This can happen in various ways, for varying reasons:
+An Issue can be closed by any member of [the repository maintainers' team](https://github.com/eiffel-community/community/blob/master/PROJECTS.md). This can happen in various ways, for varying reasons:
 1. Issues without conclusion and no activity for at least 14 days may be closed, as a mere housekeeping activity. For instance, an Issue met with requests for further clarification, but left unanswered by the original author, may simply be removed.
 1. Issues may simply be rejected if found unfeasible or undesirable. In such cases they shall also be responded to, providing a polite and concise explanation as to why the proposal is rejected.
 1. Issues may be closed because they are implemented. Following the successful merging of a pull request addressing an Issue, it will be closed.
@@ -34,7 +34,7 @@ We use the Squash and Merge model, which means that all commits in a Pull Reques
 
 To facilitate reviews, address feedback by pushing additional commits to the pull request branch rather than using forced pushes to replace the original commit(s). Because the branch will get squashed there is no point in keeping the string of commits on the pull request branch tidy; it's only the squashed result that matters.
 
-Pull requests can be merged by members of the [the repository maintainers' team](https://github.com/eiffel-community/community/blob/master/CONTACT.md). There is a certain protocol to adhere to, however, as well as expectations on membership.
+Pull requests can be merged by members of the [the repository maintainers' team](https://github.com/eiffel-community/community/blob/master/PROJECTS.md). There is a certain protocol to adhere to, however, as well as expectations on membership.
 1. All maintainers are expected to make the effort to participate in the review of Pull Requests. Every maintainer may not review everything in detail, but everyone can make the effort to chime in on some. Remember that expedient high quality reviews are crucial to the long term survival of any open source project.
 1. All community members, maintainers or not, are strongly encouraged to participate in reviews even if they do not feel entirely qualified to assess the pull request. Looking at changes and participating in review discussions is one of the best ways to learn, and presents an excellent opportunity to ask questions. And remember, participating in a review is not the same as having to make the final decision.
 1. For a sandbox project we recommend at least two maintainers (including the one doing the merging) to approve the Pull Request. For this to function well, the maintainers need to participate as stated in the previous point.
@@ -43,7 +43,7 @@ Pull requests can be merged by members of the [the repository maintainers' team]
 1. When squashing and merging, ensure that the description reflects the change. Detailing every individual commit in the Pull Request is unnecessary, as they are squashed anyway. Instead, describe the change as a single thing. That description should always include an Issue reference, and should focus on WHY the change was made, to provide the reader with context. See [this excellent guide](https://chris.beams.io/posts/git-commit) on writing good commit messages.
 
 ### Closing pull requests
-If the author of an pull request has not made any changes or status updates in one months time, any member of [the repository maintainers' team](https://github.com/eiffel-community/community/blob/master/CONTACT.md) should notify the author that they will close the pull request(see below for an example). The member should wait a week after putting the notice before closing the pull request.
+If the author of an pull request has not made any changes or status updates in one months time, any member of [the repository maintainers' team](https://github.com/eiffel-community/community/blob/master/PROJECTS.md) should notify the author that they will close the pull request(see below for an example). The member should wait a week after putting the notice before closing the pull request.
 
   > No one has made an update to this pull request for one month. Please add a status update or we will close this pull request.
 
