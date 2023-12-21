@@ -1,22 +1,34 @@
 <!--
-Filling out the template is required. Any pull request that does not include enough information to be reviewed in a timely manner may be closed at the maintainers' discretion.
-Any pull request must pass the automated Travis tests and, if applicable, code style checks. In addition the pull request must  contain tests that cover the code.
+Filling out the template is required.
+Any pull request that does not include enough information to be reviewed in a timely
+manner may be closed at the maintainers' discretion.
+Any pull request must pass all automated tests and, if applicable, code style checks.
+In addition the pull request must contain tests that cover any new code.
 -->
 
 ### Applicable Issues
-<!-- Reference any relevant issues here. Every pull request must reference at least one issue to be considered (as per contribution guidelines) -->
+<!--
+Reference any relevant issues here. Every pull request should refer to at least one
+issue. For exemptions to this rule, see the [contribution guidelines](./CONTRIBUTING.md).
+-->
 
 ### Description of the Change
-<!-- We must be able to understand the design of your change from this description. If we can't get a good idea of what the code will be doing from the description here, the pull request may be closed at the maintainers' discretion. Keep in mind that the maintainer reviewing this PR may not be familiar with or have worked with the sources addressed by this PR recently, so please walk us through the concepts. -->
+<!--
+Describe the change proposed and its benefits. The maintainers must be able to
+understand the design of your change from this description. If we can't get a good idea
+of what the code will be doing from this description, the pull request may be closed at
+the maintainers' discretion. Keep in mind that the maintainer reviewing this PR may not
+be familiar with or have worked with the sources addressed by this PR recently, so
+please walk us through the concepts. Provide special attention to breaking changes.
+-->
 
 ### Alternate Designs
-<!-- Explain what other alternates were considered and why the proposed version was selected -->
-
-### Benefits
-<!-- What benefits will be realized by the change? -->
+<!--
+Explain what other alternates were considered and why the proposed version was selected.
+-->
 
 ### Possible Drawbacks
-<!-- What are the possible side-effects or negative impacts of the change? -->
+<!-- Describe the possible side-effects or negative impacts of this change. -->
 
 ### Sign-off
 <!-- Sign the below certificate of origin, using your full name and e-mail address. -->

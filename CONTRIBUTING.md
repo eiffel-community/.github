@@ -4,7 +4,7 @@ Thank you for contributing to the Eiffel Community!
 The following is a set of guidelines for contributing to this repository.
 
 ## How to Propose Changes
-Anyone is welcome to propose changes to the contents of this repository by creating a new Issue ticket in GitHub. These requests may concern anything contained in the repo: changes to documentation, bug fixes, requests for additional information, additional event types, requests for additional examples, new featuers et cetera.
+Anyone is welcome to propose changes to the contents of this repository by creating a new Issue ticket in GitHub. These requests may concern anything contained in the repo: changes to documentation, bug fixes, requests for additional information, additional event types, requests for additional examples, new features et cetera.
 
 When posting a new issue, try to be as precise as possible and phrase your arguments for your request carefully. Keep in mind that collaborating on software development is often an exercise in finding workable compromises between multiple and often conflicting needs; this is particularly true for defining a shared protocol such as Eiffel. In particular, pay attention to the following:
 1. What type of change is requested?
@@ -25,9 +25,14 @@ An Issue can be closed by any member of [the repository maintainers' team](https
 While we welcome requests for changes (in the form of Issues), we absolutely love ready solutions (in the form of Pull Requests). The best requests are the ones with Pull Requests to go along with them.
 
 Contributions can be made by anyone using the standard [GitHub Fork and Pull model](https://help.github.com/articles/about-pull-requests). When making a pull request, keep a few things in mind.
-1. Always explicitly connect a pull request to an Issue (as indiciated by the Issue template).
+1. Explicitly connect a pull request to an Issue (see exemptions below).
 1. Make sure you target the correct branch. If you are unsure which branch is appropriate, ask in the Issue thread.
 1. Pull Requests will be publicly reviewed, criticized, and potentially rejected. Don't take it personally.
+
+### Exemptions to Connecting Pull Requests to Issues
+There are some circumstances when there makes very limited sense to connect an Issue to a Pull Requests. There is no need to create and connect Issues under the following circumstances:
+- The PR is created towards a new repository with only one active contributor/maintainer.
+- The PR is for a bug/change that is very trivial and thus doesn't expect any deep discussions needed before approving it.
 
 ### Reviewing and Merging Pull Requests
 We use the Squash and Merge model, which means that all commits in a Pull Request get squashed into a single commit in the target branch. In other words, the revision history will look like a string of single commits corresponding one-to-one with Issues.

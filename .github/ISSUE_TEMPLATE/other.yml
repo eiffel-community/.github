@@ -1,0 +1,25 @@
+name: Other Issue
+description: Anything that is not a bug or a feature request
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe your issue in relevant detail.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Please add any other context about the problem here.
+    validations:
+      required: false
+  - type: textarea
+    id: links
+    attributes:
+      label: Further links
+      description: Please provide any URLs of relevant web sites, Git repositories, PRs, Issues, etc.
+    validations:
+      required: false

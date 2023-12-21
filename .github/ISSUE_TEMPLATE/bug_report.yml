@@ -1,0 +1,59 @@
+name: 🐛 Bug report
+description: Create a report to help us improve 🎉
+labels:
+  - bug
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Please add any other context about the problem here.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: If applicable, please add logs to help explain the bug.
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: Please provide a clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction_steps
+    attributes:
+      label: Steps To Reproduce
+      description: Please describe the steps to reproduce the behavior
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: false
+  - type: input
+    id: project_version
+    attributes:
+      label: The version of this project/repo, if applicable
+      placeholder: e.g. v2.0.0
+    validations:
+      required: false
+  - type: input
+    id: eiffel_version
+    attributes:
+      label: The version/edition of the Eiffel Protocol used, if applicable
+      placeholder: e.g. Paris
+    validations:
+      required: true
