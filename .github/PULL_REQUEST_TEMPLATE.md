@@ -10,6 +10,10 @@ In addition the pull request must contain tests that cover any new code.
 <!--
 Reference any relevant issues here. Every pull request should refer to at least one
 issue. For exemptions to this rule, see the [contribution guidelines](./CONTRIBUTING.md).
+If an issue can be closed when the PR is merged, please use the
+[standard notation](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+to link the PR to the issue and make sure the latter is closed automatically when the PR
+is merged.
 -->
 
 ### Description of the Change

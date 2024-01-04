@@ -13,7 +13,7 @@ body:
         **I want** "a feature or functionality"\
         **So that** "I get certain business value"
     validations:
-      required: false
+      required: true
   - type: textarea
     id: context
     attributes:
