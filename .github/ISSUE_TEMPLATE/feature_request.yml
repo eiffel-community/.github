@@ -9,8 +9,8 @@ body:
     attributes:
       label: Summary
       value: |
-        **As** "role name"\
-        **I want** "a feature or functionality"\
+        **As** "role name"
+        **I want** "a feature or functionality"
         **So that** "I get certain business value"
     validations:
       required: true
