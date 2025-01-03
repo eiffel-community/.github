@@ -56,4 +56,4 @@ body:
       label: The version/edition of the Eiffel Protocol used, if applicable
       placeholder: e.g. Paris
     validations:
-      required: true
+      required: false
